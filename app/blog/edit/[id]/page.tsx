@@ -58,6 +58,7 @@ const EditBlog = ({params}:{params:{id:string}}) => {
             toast.error("Error Fetching",{id:"1"})
             
         })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     },[])
     const handleSubmit = async(e:any) =>{
         e.preventDefault();
